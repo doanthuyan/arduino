@@ -10,6 +10,8 @@
  *      SDA = A4
  *      VCC = 5V
  *      GND = GND
+ * 
+ * NOTE: The jumper on the module is for the backlight. If the jumper is removed, then the backlight will not light. This can be used to turn the backlight on/off using a switch.
  */
 #include <Wire.h>
 #include <LCD.h>
